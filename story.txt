@@ -1,0 +1,5 @@
+Once upon a time, a brave knight[n] went[v] on a quest to find the magical sword[n]. 
+On his journey, he met a wise wizard[n] who gave him an enchanted map[n]. 
+The map led him through a dark forest[a], across a wide river[n], and up a tall mountain[a]. 
+At the mountain's peak, he found the sword, but it was guarded by a fierce dragon[n]. 
+After an epic battle[n], the knight emerged victorious[a] and returned home as a hero[n].

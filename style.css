@@ -1,0 +1,53 @@
+body {
+    font-family: 'Garamond', serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f2e5c2; /* Light beige reminiscent of parchment */
+}
+
+.madLibsEdit, .madLibsPreview {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #8b4513; /* Dark brown resembling aged leather */
+    border-radius: 10px;
+    background-color: #fff8dc; /* Light yellow like parchment */
+    width: calc(100% - 60px);
+    box-sizing: border-box;
+}
+
+.madLibsEdit input {
+    margin: 10px 2px;
+    padding: 10px;
+    font-size: 18px; /* Slightly larger font for a medieval touch */
+    border: 1px solid #8b4513; /* Dark brown border for input fields */
+    border-radius: 5px;
+}
+
+.madLibsPreview span {
+    margin: 0 5px;
+    color: #8b4513; /* Dark brown text color */
+}
+
+.madLibsEdit input:focus {
+    outline: none; /* Removing default blue outline */
+    border-color: #cd853f; /* Light brown outline when focused */
+}
+
+@media (max-width: 600px) {
+    .madLibsEdit, .madLibsPreview {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) {
+    .madLibsEdit, .madLibsPreview {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+.madLibsPreview {
+    margin-top: 20px;
+    color: #8b4513; /* Dark brown text color */
+}
